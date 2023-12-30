@@ -135,7 +135,7 @@ body{
     background-color: var(--navy-blue);
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
-    rgba(46, 47, 66, 0.7), url(./images/img17.jpg));
+    rgba(46, 47, 66, 0.7)), url(./images/img17.jpg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
