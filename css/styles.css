@@ -345,14 +345,17 @@ body{
 .socmed-link{
     width: 100%;
     height: 100%;
-    background-color: var(--blue);
+    background-color: var(--iris);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.socmed-link:hover,
+.socmed-link:hover{
+    background-color: #404bbf;
+}
+
 .socmed-link:focus{
     background-color: #404bbf;
 }
@@ -382,6 +385,51 @@ body{
     line-height: 1.5;
     text-align: center;
 }
+
+/* Section 5 */
+.customers{
+    padding: 120px 0;
+}
+
+.customers-header{
+    font-size: 36px;
+    line-height: 1.11;
+    color: #8e8f99;
+    margin-bottom: 72PX;
+}
+
+.customers-list{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.customers-list-item{
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.customers-list-link{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8e8f99;
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus{
+    color: #404bbf;
+    border-color: #404bbf;
+}
+.customers-svg{
+    fill: currentColor;
+}
+
+/* Section 5 */
 
 
 
