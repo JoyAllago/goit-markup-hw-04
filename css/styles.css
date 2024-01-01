@@ -511,10 +511,7 @@ li{
 }
 
 /* footer style */
-
-
-
-.footer-wrap{
+.footer-hw{
     margin-right: 120px;
 }
 
@@ -570,7 +567,8 @@ li{
     padding: 100px 0;
 }
 
-.foter>.container{
+.foter,
+.container{
     display: flex;
     align-items: baseline;
 }
